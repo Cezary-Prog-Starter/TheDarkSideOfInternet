@@ -1,0 +1,248 @@
+<html><head><base href="https://DarkSideOfInternet.org">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Dark Side of the Internet: Awareness & Education</title>
+<style>
+  :root {
+    --bg-color: #0f0f0f;
+    --text-color: #e0e0e0;
+    --accent-color: #ff4500;
+    --secondary-color: #1a1a1a;
+  }
+  
+  body {
+    font-family: 'Courier New', monospace;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+  }
+  
+  header {
+    background-color: var(--secondary-color);
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  h1 {
+    color: var(--accent-color);
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: center;
+    background-color: var(--secondary-color);
+    padding: 0.5rem;
+  }
+  
+  nav a {
+    color: var(--text-color);
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    margin: 0 0.5rem;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  nav a:hover {
+    background-color: var(--accent-color);
+  }
+  
+  main {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+  }
+  
+  .topic {
+    background-color: var(--secondary-color);
+    border-radius: 5px;
+    padding: 1rem;
+    margin-bottom: 2rem;
+  }
+  
+  .topic h2 {
+    color: var(--accent-color);
+    border-bottom: 2px solid var(--accent-color);
+    padding-bottom: 0.5rem;
+  }
+  
+  .warning {
+    background-color: rgba(255, 69, 0, 0.2);
+    border: 1px solid var(--accent-color);
+    border-radius: 5px;
+    padding: 1rem;
+    margin-top: 2rem;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: var(--secondary-color);
+    margin-top: 2rem;
+  }
+  
+  /* Matrix-style animation */
+  @keyframes matrix-fall {
+    0% {
+      transform: translateY(-100%);
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+    }
+    100% {
+      transform: translateY(100vh);
+      opacity: 0;
+    }
+  }
+  
+  .matrix-bg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    z-index: -1;
+    overflow: hidden;
+  }
+  
+  .matrix-column {
+    position: absolute;
+    top: 0;
+    font-size: 1.2rem;
+    line-height: 1;
+    color: #00ff00;
+    opacity: 0.7;
+    animation: matrix-fall 20s linear infinite;
+  }
+</style>
+</head>
+<body>
+  <div class="matrix-bg" id="matrix-bg"></div>
+  
+  <header>
+    <h1>The Dark Side of the Internet</h1>
+    <p>Awareness & Education Portal</p>
+  </header>
+  
+  <nav>
+    <a href="#cybercrime">Cybercrime</a>
+    <a href="#privacy">Privacy</a>
+    <a href="#addiction">Addiction</a>
+    <a href="#misinformation">Misinformation</a>
+  </nav>
+  
+  <main>
+    <section id="cybercrime" class="topic">
+      <h2>Cybercrime</h2>
+      <p>Cybercrime is a growing threat in our interconnected world. From identity theft to ransomware attacks, criminals are constantly finding new ways to exploit technology for illicit gains.</p>
+      <p>Learn about common types of cybercrimes and how to protect yourself:</p>
+      <ul>
+        <li>Phishing scams</li>
+        <li>Malware and viruses</li>
+        <li>Data breaches</li>
+        <li>Online fraud</li>
+      </ul>
+    </section>
+    
+    <section id="privacy" class="topic">
+      <h2>Privacy Concerns</h2>
+      <p>Your personal data is valuable, and many entities are eager to collect and exploit it. Understanding privacy risks and taking steps to protect your information is crucial in the digital age.</p>
+      <p>Key privacy issues include:</p>
+      <ul>
+        <li>Data collection by tech giants</li>
+        <li>Government surveillance</li>
+        <li>Digital footprints and online tracking</li>
+        <li>The right to be forgotten</li>
+      </ul>
+    </section>
+    
+    <section id="addiction" class="topic">
+      <h2>Internet Addiction</h2>
+      <p>The internet offers countless benefits, but it can also be addictive. Excessive use of social media, online gaming, and other digital platforms can negatively impact mental health and real-world relationships.</p>
+      <p>Signs of internet addiction:</p>
+      <ul>
+        <li>Losing track of time online</li>
+        <li>Neglecting real-world responsibilities</li>
+        <li>Feeling anxious or irritable when unable to access the internet</li>
+        <li>Using the internet to escape from problems</li>
+      </ul>
+    </section>
+    
+    <section id="misinformation" class="topic">
+      <h2>Misinformation and Fake News</h2>
+      <p>The rapid spread of misinformation online poses a significant threat to society. Learning to identify and combat fake news is essential for maintaining a well-informed populace.</p>
+      <p>How to spot misinformation:</p>
+      <ul>
+        <li>Check the source and author credentials</li>
+        <li>Look for unusual URLs or site names</li>
+        <li>Be wary of sensational headlines</li>
+        <li>Cross-reference with fact-checking websites</li>
+      </ul>
+    </section>
+    
+    <div class="warning">
+      <h3>Stay Informed, Stay Safe</h3>
+      <p>Knowledge is your best defense against the dark side of the internet. Stay updated on the latest threats and best practices for online safety. Remember, your digital wellbeing is in your hands.</p>
+    </div>
+  </main>
+  
+  <footer>
+    <p>&copy; 2023 DarkSideOfInternet.org | Promoting awareness and digital literacy</p>
+  </footer>
+
+  <script>
+    // Matrix-style background animation
+    const matrixBg = document.getElementById('matrix-bg');
+    const characters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789@#$%^&*()_+{}[]|;:,.<>?';
+    const columnCount = 50;
+
+    for (let i = 0; i < columnCount; i++) {
+      const column = document.createElement('div');
+      column.className = 'matrix-column';
+      column.style.left = `${(i / columnCount) * 100}%`;
+      column.style.animationDelay = `${Math.random() * 20}s`;
+      
+      for (let j = 0; j < 50; j++) {
+        const char = document.createElement('span');
+        char.textContent = characters[Math.floor(Math.random() * characters.length)];
+        column.appendChild(char);
+      }
+      
+      matrixBg.appendChild(column);
+    }
+
+    // Smooth scrolling for navigation links
+    document.querySelectorAll('nav a').forEach(anchor => {
+      anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+          behavior: 'smooth'
+        });
+      });
+    });
+
+    // Add a simple easter egg
+    let konami = [];
+    const konamiCode = ['ArrowUp', 'ArrowUp', 'ArrowDown', 'ArrowDown', 'ArrowLeft', 'ArrowRight', 'ArrowLeft', 'ArrowRight', 'b', 'a'];
+    
+    document.addEventListener('keydown', (e) => {
+      konami.push(e.key);
+      konami = konami.slice(-10);
+      
+      if (konami.join(',') === konamiCode.join(',')) {
+        alert('You have unlocked the secret! But remember, with great power comes great responsibility.');
+        document.body.style.backgroundColor = '#008800';
+        setTimeout(() => {
+          document.body.style.backgroundColor = '';
+        }, 5000);
+      }
+    });
+  </script>
+</body>
+</html>
